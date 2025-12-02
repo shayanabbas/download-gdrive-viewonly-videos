@@ -1,0 +1,7 @@
+{
+  "name": "download-gdrive-viewonly-videos",
+  "version": "1.0.0",
+  "description": "Chrome extension to download Google Drive video/audio files with maximum quality",
+  "type": "module"
+}
+

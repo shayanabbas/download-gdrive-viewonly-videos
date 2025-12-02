@@ -1,0 +1,21 @@
+{
+  "manifest_version": 1,
+  "name": "Google Drive Video/Audio Downloader",
+  "version": "1.0",
+  "description": "Download Google Drive videoplayback video and audio files with maximum quality.",
+  "author": "Shayan Abbas",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Download video and audio"
+  }
+}
